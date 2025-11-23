@@ -118,7 +118,8 @@
 
    ```bash
    poetry shell
-   python3 src/api_client/main.py
+   python3 src/api_client/main.py # or
+   poetry run python src/api_client/main.py
    ```
 
 8. Deactivate / Exit Poetry shell when done
