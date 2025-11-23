@@ -1,5 +1,9 @@
 # Python
 
+## Pyhthon Interpreter
+
+1. to enter Pyhthon Interpreter just type `python3` in cmd
+
 ## ✅ Python Learning Roadmap — Full List
 
 1. **Hello World** → printing, comments
@@ -49,3 +53,38 @@
 23. **Async Programming** → async / await
 
 24. **Web Frameworks** → Flask, FastAPI
+
+## Naming Convention
+
+## Editor Setup
+
+### VSC
+
+1. install exetensions
+   1. python
+   2. autopep8  - for formatting
+
+2. short cuts
+   ctrl + k, ctrl + f  = formatting (selection)
+
+3. add run short key `Ctrl + R, Ctrl + P`
+   - go to keyboard shortcuts (Ctrl +K, Ctrl+S)
+      - or Ctrl + Shift + P -> keyboard shortcuts
+   - search for run python file
+     - add key binding `Ctrl + R, Ctrl + P`
+
+   - **Note**:-
+      - we can add key binding for any programming language
+      - eg: for node.js
+        1. goto keyboard shortcuts Ctrl + K, Ctrl + S
+        2. then click on json symbol (keybiinds.json)
+        3. add the below code
+
+           ```json
+              {
+               "key": "ctrl+r ctrl+n",
+               "command": "workbench.action.terminal.sendSequence",
+               "args": { "text": "node ${file}\u000D" }
+               }
+               // \u000D if for Enter, else we have to enter to execute
+           ```

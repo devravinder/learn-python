@@ -11,7 +11,10 @@ c = a + b
 Multiline comment
  print can have multiple args, sperated by comma
 '''
-print(a,"+",b,"=",c)
+print(a, "+", b, "=", c)
 
-x=input("Enter Input: ") # trtaed as string
+x = input("Enter Input: ")  # trtaed as string
 print(x)
+x = int(x)
+print(f"printing {x} stars")
+print("*"*x)
