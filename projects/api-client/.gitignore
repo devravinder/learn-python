@@ -1,0 +1,28 @@
+# Ignore Poetry virtual environment (if created inside project)
+.venv/
+
+# Ignore Python cache & compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore build/packaging output
+build/
+dist/
+*.egg-info/
+
+# Ignore environment files
+.env
+.env.*
+
+# Ignore editor / IDE settings
+.vscode/
+.idea/
+
+# Ignore OS-generated junk files
+.DS_Store
+Thumbs.db
+
+# Ignore logs (optional but useful)
+*.log

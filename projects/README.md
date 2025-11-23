@@ -69,3 +69,73 @@
    ```bash
      deactivate
    ```
+
+## Project with Poetry
+
+1. Install Poetry (if not installed)
+
+   ```bash
+      pipx install poetry
+   ```
+
+2. Create project directory using Poetry
+
+   ```bash
+      poetry new api-client
+   ```
+
+   - Creates folder `api-client`
+   - Generates basic project structure + `pyproject.toml` (like package.json)
+
+3. Move into project directory
+
+   ```bash
+   cd api-client
+   ```
+
+4. Install required library
+
+   ```bash
+   poetry add requests
+   ```
+
+   - Installs the `requests` package only for this project
+   - Updates `pyproject.toml` and creates `poetry.lock`
+
+5. Activate Poetry virtual environment
+
+   ```bash
+   poetry shell
+   ```
+
+   - Now your terminal uses the virtual environment created by Poetry
+   - Check `which python3` to confirm
+
+6. Add main code — inside `src/api_client/` folder create `main.py`
+  **Note**:- __init__.py is to make our project as package
+
+7. Run the project
+
+   ```bash
+   poetry shell
+   python3 src/api_client/main.py
+   ```
+
+8. Deactivate / Exit Poetry shell when done
+
+   ```bash
+    exit
+   ```
+
+9. To install dependencies on another machine:
+   1. cmd
+
+      ```bash
+         poetry install
+      ```
+
+   2. To run without entering shell:
+
+      ```bash
+         poetry run python api_cient/main.py
+      ```

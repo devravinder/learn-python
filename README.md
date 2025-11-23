@@ -88,3 +88,22 @@
                }
                // \u000D if for Enter, else we have to enter to execute
            ```
+
+## Required Tools & Packages
+
+1. Python3
+2. VSC
+3. pip
+4. pipx
+
+   ```bash
+    sudo apt install pipx
+    pipx ensurepath # do this again without sudo
+   ```
+
+5. python3.12-venv ( for virtual env )
+6. poetry
+
+   ```bash
+   pipx install poetry
+   ```
