@@ -1,0 +1,35 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Logs
+*.log
+
+# -------------------------
+# PyCharm / JetBrains IDE
+# -------------------------
+# Ignore JetBrains settings & indexes
+.idea/
+
+# -------------------------
+# OS generated junk files
+# -------------------------
+.DS_Store
+Thumbs.db
