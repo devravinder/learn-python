@@ -1,0 +1,240 @@
+[
+  {
+    "id": 1,
+    "name": "Ravi Kumar",
+    "age": 29,
+    "email": "ravi.kumar@example.com",
+    "job": "Software Developer"
+  },
+  {
+    "id": 1,
+    "name": "Ravi Kumar",
+    "age": 29,
+    "email": "ravi.kumar@example.com",
+    "job": "Software Developer"
+  },
+  {
+    "id": 2,
+    "name": "Kiran Reddy",
+    "age": 32,
+    "email": "kiran.reddy@example.com",
+    "job": "QA Engineer"
+  },
+  {
+    "id": 3,
+    "name": "Suma Priya",
+    "age": 26,
+    "email": "suma.priya@example.com",
+    "job": "UI/UX Designer"
+  },
+  {
+    "id": 4,
+    "name": "Rahul Sharma",
+    "age": 30,
+    "email": "rahul.sharma@example.com",
+    "job": "Data Analyst"
+  },
+  {
+    "id": 5,
+    "name": "Akhil Verma",
+    "age": 27,
+    "email": "akhil.verma@example.com",
+    "job": "Machine Learning Engineer"
+  },
+  {
+    "id": 6,
+    "name": "Pooja Devi",
+    "age": 24,
+    "email": "pooja.devi@example.com",
+    "job": "Frontend Developer"
+  },
+  {
+    "id": 7,
+    "name": "Sai Teja",
+    "age": 31,
+    "email": "sai.teja@example.com",
+    "job": "Project Manager"
+  },
+  {
+    "id": 8,
+    "name": "Meena Singh",
+    "age": 28,
+    "email": "meena.singh@example.com",
+    "job": "Backend Developer"
+  },
+  {
+    "id": 9,
+    "name": "Aditya Raj",
+    "age": 35,
+    "email": "aditya.raj@example.com",
+    "job": "Team Lead"
+  },
+  {
+    "id": 10,
+    "name": "Divya Gupta",
+    "age": 23,
+    "email": "divya.gupta@example.com",
+    "job": "HR Coordinator"
+  },
+  {
+    "id": 11,
+    "name": "Harika Nair",
+    "age": 27,
+    "email": "harika.nair@example.com",
+    "job": "Content Writer"
+  },
+  {
+    "id": 12,
+    "name": "Vijay Kumar",
+    "age": 33,
+    "email": "vijay.kumar@example.com",
+    "job": "Cloud Architect"
+  },
+  {
+    "id": 13,
+    "name": "Swathi Rao",
+    "age": 25,
+    "email": "swathi.rao@example.com",
+    "job": "Cyber Security Analyst"
+  },
+  {
+    "id": 14,
+    "name": "Naveen Chandra",
+    "age": 29,
+    "email": "naveen.chandra@example.com",
+    "job": "Full Stack Developer"
+  },
+  {
+    "id": 15,
+    "name": "Niharika Sharma",
+    "age": 22,
+    "email": "niharika.sharma@example.com",
+    "job": "Graphic Designer"
+  },
+  {
+    "id": 16,
+    "name": "Sandeep Joshi",
+    "age": 34,
+    "email": "sandeep.joshi@example.com",
+    "job": "DevOps Engineer"
+  },
+  {
+    "id": 17,
+    "name": "Karthik R",
+    "age": 28,
+    "email": "karthik.r@example.com",
+    "job": "Android Developer"
+  },
+  {
+    "id": 18,
+    "name": "Ritika Jain",
+    "age": 26,
+    "email": "ritika.jain@example.com",
+    "job": "Product Manager"
+  },
+  {
+    "id": 19,
+    "name": "Yashwant Singh",
+    "age": 37,
+    "email": "yashwant.singh@example.com",
+    "job": "IT Consultant"
+  },
+  {
+    "id": 20,
+    "name": "Lavanya B",
+    "age": 24,
+    "email": "lavanya.b@example.com",
+    "job": "Digital Marketer"
+  },
+  {
+    "id": 21,
+    "name": "Rohit Kulkarni",
+    "age": 32,
+    "email": "rohit.kulkarni@example.com",
+    "job": "Solutions Architect"
+  },
+  {
+    "id": 22,
+    "name": "Preethi V",
+    "age": 30,
+    "email": "preethi.v@example.com",
+    "job": "Business Analyst"
+  },
+  {
+    "id": 23,
+    "name": "Suhas Rao",
+    "age": 27,
+    "email": "suhas.rao@example.com",
+    "job": "Financial Analyst"
+  },
+  {
+    "id": 24,
+    "name": "Rohan Mehta",
+    "age": 29,
+    "email": "rohan.mehta@example.com",
+    "job": "Blockchain Developer"
+  },
+  {
+    "id": 25,
+    "name": "Sneha Kapoor",
+    "age": 23,
+    "email": "sneha.kapoor@example.com",
+    "job": "Data Scientist"
+  },
+  {
+    "id": 26,
+    "name": "Anil Pandey",
+    "age": 36,
+    "email": "anil.pandey@example.com",
+    "job": "Network Administrator"
+  },
+  {
+    "id": 27,
+    "name": "Sravani M",
+    "age": 28,
+    "email": "sravani.m@example.com",
+    "job": "Frontend Engineer"
+  },
+  {
+    "id": 28,
+    "name": "Dinesh Varma",
+    "age": 31,
+    "email": "dinesh.varma@example.com",
+    "job": "System Analyst"
+  },
+  {
+    "id": 29,
+    "name": "Anusha Shetty",
+    "age": 25,
+    "email": "anusha.shetty@example.com",
+    "job": "Recruiter"
+  },
+  {
+    "id": 30,
+    "name": "Mahesh Patil",
+    "age": 34,
+    "email": "mahesh.patil@example.com",
+    "job": "Database Administrator"
+  },
+  {
+    "id": 28,
+    "name": "Dinesh Varma",
+    "age": 31,
+    "email": "dinesh.varma@example.com",
+    "job": "System Analyst"
+  },
+  {
+    "id": 29,
+    "name": "Anusha Shetty",
+    "age": 25,
+    "email": "anusha.shetty@example.com",
+    "job": "Recruiter"
+  },
+  {
+    "id": 30,
+    "name": "Mahesh Patil",
+    "age": 34,
+    "email": "mahesh.patil@example.com",
+    "job": "Database Administrator"
+  }
+]
