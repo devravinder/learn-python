@@ -14,3 +14,9 @@
 5. `pip freeze > requirements.txt`
 6. run `python3 main.py` or use `.ipynb` files
 7. `deactivate`
+
+### Time Series Animation
+
+[Reference](https://github.com/KeithGalli/time-series-animations)
+
+- [Video](https://www.youtube.com/watch?v=mafzIn8TneQ)
