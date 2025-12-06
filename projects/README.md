@@ -5,6 +5,7 @@
 1. Python Virtual Environments (vnev)
 2. Poetry
 3. UV (`pipx install uv`) ***
+4. pixi ( same lik uv )
 
 ## Project with vnev
 

@@ -1,0 +1,71 @@
+# -------------------------
+# Python / UV Project Ignore
+# -------------------------
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments (uv links packages locally - still ignore venv)
+.venv/
+env/
+venv/
+
+# uv package install cache
+.uv/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Python dependency managers
+pip-log.txt
+poetry.lock
+poetry.toml
+requirements.txt
+Pipfile.lock
+Pipfile
+
+# -------------------------
+# Jupyter
+# -------------------------
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Kernel metadata & runtime files
+.jupyter/
+.jupyter_cache/
+*.nbconvert.ipynb
+
+# JupyterLab build output
+/lab/
+.jupyterlab-settings/
+.jupyterlab-workspaces/
+
+# Notebook output cache
+.ipynb_cache/
+**/.ipynb_output/
+
+# Notebook metadata files
+*.jupyter_backup
+
+# VSCode or editor-specific junk
+.vscode/
+.idea/
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temp files
+tmp/
+*.tmp
+*.swp
+*.bak
