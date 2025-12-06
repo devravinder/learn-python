@@ -4,6 +4,7 @@
 
 1. Python Virtual Environments (vnev)
 2. Poetry
+3. UV (`pipx install uv`) ***
 
 ## Project with vnev
 
@@ -36,7 +37,7 @@
    - Packages you install will go only inside this project
    - check `which python3`
 
-5. install librarye
+5. install library
 
    ```bash
    pip install colorama
@@ -112,7 +113,7 @@
    - Check `which python3` to confirm
 
 6. Add main code — inside `src/api_client/` folder create `main.py`
-  **Note**:- __init__.py is to make our project as package
+  **Note**:- **init**.py is to make our project as package
 
 7. Run the project
 
@@ -140,3 +141,50 @@
       ```bash
          poetry run python api_cient/main.py
       ```
+
+## Project With UV
+
+1. Init project
+   - `uv init uv-api-client`
+2. add depedency
+   - `uv add requests`
+   - `uv add "flask=2.*'`
+3. running
+   - `uv run main.py`
+
+4. to remove lib
+   - `uv remove pandas`
+
+5. Lock libraries
+
+- `uv lock`
+
+### Library with UV
+
+1. `uv init --lib my-lib`
+2. `uv publish my-lib`
+
+### Mono-repo
+
+1. Sub proejct
+   - create a subproject in another project
+   - `uv init my-child-app-1`
+
+### Other Useful CMD
+
+1. to list all pythons
+   - `uv python list`
+   - `uv python list --only-installed`
+
+2. installing python version
+   - `uv python install 3.13`
+
+3. to change python version
+   - `uv python pin 3.13` # run this in project folder
+
+4. run python with specific version
+   - `uv run python` # it uses active version from the project else global
+
+5. Using tool
+
+- `uv tool run jupyter lab` or `uvx jupyter lab`
