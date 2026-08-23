@@ -1,0 +1,19 @@
+[project]
+name = "api-client"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Ravinder Reddy Kothabad",email = "developer.ravinder.reddy@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "requests (>=2.32.5,<3.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "api_client", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
