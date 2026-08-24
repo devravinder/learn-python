@@ -13,7 +13,7 @@
 - install python & its related tools in system level
   - `pyenv`
   - `pyton3`  ( v3.14.7)
-  - `python3.17-venv` - for virtual env
+  - `python3.14.7-venv` - for virtual env
   - `pip`             - package manager
   - `uv`              - modern Python package/project manager
 
@@ -23,7 +23,7 @@
 - create Virtual ENV : `python -m venv .venv`
   - run inside `python` workspace folder
 
-- activate Virtual ENV : `source .venv/bin/activate`
+- activate Virtual ENV : `source .venv/bin/activate` or `.venv\Scripts\activate.bat`
   - run inside `python` workspace folder
   - General-purpose Python environment
     - later we can use project level venv with uv package manager
