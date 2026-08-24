@@ -2,6 +2,7 @@
 
 ## Useful Libs/Pacakges
 
+- ipykernel
 - numpy
 - pandas
 - matplotlib
