@@ -11,15 +11,16 @@
     - Jupyter ( pack : install all official extensions  )
 
 - install python & its related tools in system level
-  - `pyton3`  ( v3.14.4)
-  - `python3.14-venv` - for virtual env
+  - `pyenv`
+  - `pyton3`  ( v3.14.7)
+  - `python3.17-venv` - for virtual env
   - `pip`             - package manager
   - `uv`              - modern Python package/project manager
 
 ### Folder & Env Setup
 
 - create work space folder : `python`
-- create Virtual ENV : `python3 -m venv .venv`
+- create Virtual ENV : `python -m venv .venv`
   - run inside `python` workspace folder
 
 - activate Virtual ENV : `source .venv/bin/activate`
