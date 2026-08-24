@@ -30,7 +30,7 @@
 
   - Now your terminal uses Python from venv instead of system Python
   - Packages you install will go only inside this project
-  - check `which python3`
+  - check `which python`
 
   - Note:-
     - to deactive venv ( after this usage ): `deactivate`
