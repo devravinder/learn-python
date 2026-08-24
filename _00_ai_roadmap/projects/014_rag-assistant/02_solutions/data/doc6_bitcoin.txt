@@ -1,0 +1,1 @@
+Bitcoin is a decentralized digital currency created in 2009 by an unknown person or group using the name Satoshi Nakamoto. Transactions are verified by network nodes through cryptography and recorded on a public distributed ledger called a blockchain. There will only ever be 21 million bitcoins in existence.

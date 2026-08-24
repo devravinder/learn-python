@@ -1,0 +1,8 @@
+temp.md
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+projects/**/charts/
+node_modules/
+dist/

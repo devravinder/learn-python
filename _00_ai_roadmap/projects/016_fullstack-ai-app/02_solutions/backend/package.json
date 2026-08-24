@@ -1,0 +1,14 @@
+{
+  "name": "fullstack-ai-app-backend",
+  "version": "1.0.0",
+  "description": "Express backend serving a toy Markov-chain text generator behind a REST API, with a documented seam for a real trained model.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  }
+}
