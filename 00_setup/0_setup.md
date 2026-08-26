@@ -85,7 +85,16 @@
 
 - [Google Colab](https://colab.research.google.com/)
 - create & run `.ipynb` in browser directly
-  - recomonded ( very easy setup  & free resource )
+  - `recomonded` ( very easy setup  & free resource )
+
+## Pip usage
+
+- to install: `pip install numpy`
+- to uninstall: `pip uninstall requests`
+- to see installed libs: `pip list`
+- to see installed libs exact version: `pip freeze`
+- to save installed libs exact version to a file: `pip freeze`
+- to install from file: `pip install -r requirements.txt`
 
 ## Observations
 
@@ -96,3 +105,17 @@
   - `python -m pip install numpy`
     - uses pip associated with the selected Python interpreter
     - recomonded
+
+## Troubleshot
+
+- `VSC issu`:- Error loading webview: Error: `Could not register service worker`: InvalidStateError: Failed to register a ServiceWorker: The document is in an invalid state..
+
+  - then clear clear VS Code webview cache ( close VSC )
+
+     ```bash
+        rm -rf ~/.config/Code/"Service Worker"
+        rm -rf ~/.config/Code/Cache
+        rm -rf ~/.config/Code/CachedData
+     ```
+
+  - restart
