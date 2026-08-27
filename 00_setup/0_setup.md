@@ -37,7 +37,7 @@
 
 ### Installing Packages / libs
 
-- `python -m pip install numpy`  
+- to install from file: `pip install -r ./learn-python-ai-ml/requirements.txt`
   - run inside `python` workspace folder
   - install pcakges within with workspace project
 

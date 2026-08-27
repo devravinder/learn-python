@@ -2,13 +2,16 @@
 
 ## Useful Libs/Pacakges
 
-- ipykernel
-- numpy
-- pandas
-- matplotlib
-- seaborn
-- scikit learn ( sklearn )
-- nltk ( natural langugae tool kit )
+- `ipykernel` - to execute Python code in Jupyter/VS Code notebooks
+- `numpy` - to work with numerical data and arrays
+  - `skimpy` - to quickly inspect and understand datasets
+  - `pyjanitor` - to clean and transform data
+  
+- `pandas` - to work with DataFrames and tabular data
+- `matplotlib` - to create charts and diagrams
+- `seaborn` - to create statistical and attractive visualizations
+- `scikit-learn (sklearn)` - to build and evaluate machine learning models
+- `nltk` - to process and analyze natural language/text
 
 ## Reference
 
