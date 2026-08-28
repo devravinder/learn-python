@@ -50,7 +50,7 @@
   - the python script file should be inside `python` workspace folder ( or subfolder )
   - else we have to setup proper venv for that files / project
 
-#### Shortcut Key setup : `Ctrl + R, Ctrl + P`
+#### Shortcut Key setup : `Ctrl + R, Ctrl + P`  in VSC
 
 1. goto keyboard shortcuts (Ctrl + K, Ctrl + S)
 2. click on json symbol (keybindings.json)
@@ -66,7 +66,7 @@
 
 `\u000D` means Enter key automatically.
 
-#### Interactive Python Note Book (`.ipynb`)
+#### Interactive Python Note Book (`.ipynb`) in VSC
 
 - `.ipynb` requires
   - VS Code Jupyter extension
@@ -108,7 +108,7 @@
 
 ## Troubleshot
 
-- `VSC issu`:- Error loading webview: Error: `Could not register service worker`: InvalidStateError: Failed to register a ServiceWorker: The document is in an invalid state..
+- `VSC issue`:- Error loading webview: Error: `Could not register service worker`: InvalidStateError: Failed to register a ServiceWorker: The document is in an invalid state..
 
   - then clear clear VS Code webview cache ( close VSC )
 
@@ -119,3 +119,9 @@
      ```
 
   - restart
+
+- to diasbale auto venv activation in a new terminal in VSC, add the below line in settings.json
+
+  ```json
+     "python.terminal.activateEnvironment": false
+  ```
